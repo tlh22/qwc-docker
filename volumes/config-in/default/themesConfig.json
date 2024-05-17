@@ -5,13 +5,13 @@
   "defaultBackgroundLayers": [],
   "defaultSearchProviders": ["coordinates"],
   "defaultMapCrs": "EPSG:3857",
-  "defaultTheme": "Demo",
+  "defaultTheme": "qwc_demo",
   "themes": {
   "items": [
       {
       "id": "Demo",
       "title": "Demo",
-      "url": "/ows/qwc_demo",
+      "url": "/ows/default/qwc_demo",
       "attribution": "Demo attribution",
       "attributionUrl": "https://127.0.0.1/",
       "backgroundLayers": [

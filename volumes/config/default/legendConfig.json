@@ -1,5 +1,5 @@
 {
-  "$schema": "https://github.com/qwc-services/qwc-legend-service/raw/master/schemas/qwc-legend-service.json",
+  "$schema": "https://github.com/qwc-services/qwc-legend-service/raw/2024-lts/schemas/qwc-legend-service.json",
   "service": "legend",
   "config": {
     "default_qgis_server_url": "http://qwc-qgis-server/ows/",
@@ -8,7 +8,7 @@
   "resources": {
     "wms_services": [
       {
-        "name": "qwc_demo",
+        "name": "default/qwc_demo",
         "root_layer": {
           "name": "qwc_demo",
           "layers": [
@@ -26,6 +26,26 @@
                 }
               ]
             },
+            {
+              "name": "geographic_lines"
+            },
+            {
+              "name": "country_names"
+            },
+            {
+              "name": "states_provinces"
+            },
+            {
+              "name": "countries"
+            }
+          ]
+        }
+      },
+      {
+        "name": "default/scan/natural-earth-countries",
+        "root_layer": {
+          "name": "qwc_demo",
+          "layers": [
             {
               "name": "geographic_lines"
             },

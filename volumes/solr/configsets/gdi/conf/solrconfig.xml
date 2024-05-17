@@ -689,15 +689,9 @@
        of SearchComponents (see below) and supports distributed
        queries across multiple shards
     -->
-  <requestHandler name="/ne_10m_admin_0_countries" class="solr.DataImportHandler">
+  <requestHandler name="/trdc_road_name" class="solr.DataImportHandler">
     <lst name="defaults">
-      <str name="config">dih_geodata_config.xml</str>
-    </lst>
-  </requestHandler>
-
-  <requestHandler name="/dih_metadata" class="solr.DataImportHandler">
-    <lst name="defaults">
-      <str name="config">dih_metadata_config.xml</str>
+      <str name="config">trdc_road_name_config.xml</str>
     </lst>
   </requestHandler>
 
